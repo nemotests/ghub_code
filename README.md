@@ -4,6 +4,14 @@ Vue JS project that lets users add points and view existing locations of toilets
 
 You will need a valid mapbox account token and place in the index.vue at "MAPBOX KEY GOES HERE"
 
+
+##Architecture for Gather HUB
+
+![Diagram](gather hub.jpg)
+
+
+
+
 ## Project setup
 ```
 yarn install
