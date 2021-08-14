@@ -7,7 +7,7 @@ You will need a valid mapbox account token and place in the index.vue at "MAPBOX
 
 ##Architecture for Gather HUB
 
-![Diagram](gather hub.jpg)
+![Diagram](https://github.com/nemotests/ghub_code/blob/main/gather%20hub.jpg)
 
 
 
