@@ -1,0 +1,89 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+body {
+background: #fafcfd;
+margin: 0;
+}
+.main{padding: 1px}
+.nav {
+background: #fafcfd;
+box-shadow: 0px 2px 5px rgb(247, 247, 247);
+}
+.header {
+display: flex;
+flex-direction: row;
+background-color: rgb(39, 38, 38);
+align-items: center;
+padding: 0px 50px;
+}
+.header h3 {
+color: #858585;
+font-weight: 600;
+}
+
+#map {
+height: 40vh;
+}
+
+.popup_image{
+  width: 60%;
+  height: 60%;
+}
+
+.label{
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+
+
+}
+
+.input-group{
+
+  padding: 15px;
+  font-size: 12px;
+  margin:5px;
+  appearance: none;
+  border:none;
+  outline: none;
+  background: none;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.4s;
+  display: inline-block;
+  float: left;
+
+}
+.point-btn{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px 5px 5px 5px;
+  background: rgb(7, 167, 34);
+  font-size: 12px;
+  padding: 15px;
+  font-weight: bold;
+  display: inline-block;
+  display: inline-block;
+  float: left;
+
+  width: 250px;
+  text-align: right;
+}
+
+.point-btn:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.error-message{
+  color: red;
+
+}
